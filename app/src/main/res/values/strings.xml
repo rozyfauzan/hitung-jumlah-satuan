@@ -9,15 +9,25 @@
     <string name="rim">Rim</string>
     <string name="jumlahfragment">Jumlah Fragment</string>
     <string name="jumlahkeseluruhan">Jumlah Keseluruhan :<BR>  %1$.2f Buah </BR></string>
-    <string name="about">Aplikasi Ini Adalah Penghitungan jumlah Satuan, Diantaranya RIM, LUSIN, GROSS, KODI
-        <br></br>
-        <br> Aplikasi Ini Untuk Menghitung Berdasarkan Jumlah Satuan Yang Diinginkan Per buahnya.</br>
-        <br></br>
-        <br> Temukan Aplikasi Ini Di https://github.com/rozyfauzan/hitung-jumlah-satuan.git.</br>
-        <br></br>
-        <br> Selamat Mencoba.</br>
+    <string name="about">
+        <br> Aplikasi Ini Adalah Penghitungan jumlah Satuan, Diantaranya RIM, LUSIN, GROSS, KODI \n\n</br>
+
+        <br> Aplikasi Ini Untuk Menghitung Berdasarkan Jumlah Satuan Yang Diinginkan Per buahnya. \n\n</br>
+
+        <br> Temukan Aplikasi Ini Di https://github.com/rozyfauzan/hitung-jumlah-satuan.git.\n\n</br>
+
+        <br> Selamat Mencoba.\n\n</br>
     </string>
     <string name="tentangaplikasi">Tentang Aplikasi</string>
+    <string name="rumus">Kamus Rumus</string>
+    <string name="isirumus">
+        <br><br> Kamus Rumus : \n\n</br></br>
+        <br> <br> 1 Lusin = 12 Buah \n\n</br></br>
+        <br> <br> 1 Gross = 144 Buah \n\n</br></br>
+        <br> <br> 1 Kodi = 20 Buah \n\n</br></br>
+        <br> <br>  1 Rim = 500 Buah \n\n</br></br>
+
+    </string>
 
 
 </resources>

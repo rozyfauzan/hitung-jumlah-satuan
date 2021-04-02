@@ -22,8 +22,11 @@ class JumlahFragment : Fragment() {
             findNavController().navigate(R.id.action_jumlahFragment_to_aboutFragment);
             return true
 
+        }   else if (item.itemId==R.id.menu_rumus) {
+            findNavController().navigate(R.id.action_jumlahFragment_to_rumusFragment);
+            return true
         }
-        return super.onOptionsItemSelected(item)
+            return super.onOptionsItemSelected(item)
     }
 
     override fun onCreateView(
