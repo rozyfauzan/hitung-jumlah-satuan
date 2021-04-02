@@ -8,6 +8,15 @@
     <fragment
         android:id="@+id/jumlahFragment"
         android:name="org.d3if4079.hitungjumlahsatuan.ui.JumlahFragment"
-        android:label="JumlahFragment"
-        tools:layout="@layout/fragment_jumlah"/>
+        android:label="@string/jumlahfragment"
+        tools:layout="@layout/fragment_jumlah">
+        <action
+            android:id="@+id/action_jumlahFragment_to_aboutFragment"
+            app:destination="@id/aboutFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/aboutFragment"
+        android:name="org.d3if4079.hitungjumlahsatuan.ui.AboutFragment"
+        android:label="@string/about"
+        tools:layout="@layout/fragment_about"/>
 </navigation>

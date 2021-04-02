@@ -7,5 +7,17 @@
     <string name="gross">Gross</string>
     <string name="kodi">Kodi</string>
     <string name="rim">Rim</string>
+    <string name="jumlahfragment">Jumlah Fragment</string>
     <string name="jumlahkeseluruhan">Jumlah Keseluruhan :<BR>  %1$.2f Buah </BR></string>
+    <string name="about">Aplikasi Ini Adalah Penghitungan jumlah Satuan, Diantaranya RIM, LUSIN, GROSS, KODI
+        <br></br>
+        <br> Aplikasi Ini Untuk Menghitung Berdasarkan Jumlah Satuan Yang Diinginkan Per buahnya.</br>
+        <br></br>
+        <br> Temukan Aplikasi Ini Di https://github.com/rozyfauzan/hitung-jumlah-satuan.git.</br>
+        <br></br>
+        <br> Selamat Mencoba.</br>
+    </string>
+    <string name="tentangaplikasi">Tentang Aplikasi</string>
+
+
 </resources>
