@@ -65,10 +65,11 @@
             android:id="@+id/jumlahkeseluruhan_textview"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="100dp"
             android:layout_marginTop="32dp"
             android:freezesText="true"
             android:text="@string/jumlahkeseluruhan"
+            app:layout_constraintBottom_toTopOf="@+id/rumusButton"
+            app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/hitungbutton" />
 
@@ -106,6 +107,18 @@
                 android:text="@string/rim" />
 
         </RadioGroup>
+
+        <Button
+            android:id="@+id/rumusButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:layout_marginBottom="32dp"
+            android:text="@string/rumus"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/jumlahkeseluruhan_textview" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </ScrollView>

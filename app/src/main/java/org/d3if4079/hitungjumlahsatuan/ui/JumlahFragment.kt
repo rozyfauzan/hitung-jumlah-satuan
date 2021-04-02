@@ -6,6 +6,7 @@ import android.provider.Settings.Global.getString
 import android.view.*
 import android.widget.Toast
 import androidx.fragment.app.Fragment
+import androidx.navigation.findNavController
 import androidx.navigation.fragment.findNavController
 import org.d3if4079.hitungjumlahsatuan.R
 import org.d3if4079.hitungjumlahsatuan.databinding.FragmentJumlahBinding
@@ -66,6 +67,10 @@ class JumlahFragment : Fragment() {
                 Toast.makeText(context, "Harap Diisi Dengan Lengkap", Toast.LENGTH_SHORT).show();
             }
 
+        }
+
+        binding.rumusButton.setOnClickListener {
+            view:View->view.findNavController().navigate(R.id.action_jumlahFragment_to_rumusFragment)
         }
 
         binding.sharebutton.setOnClickListener {
