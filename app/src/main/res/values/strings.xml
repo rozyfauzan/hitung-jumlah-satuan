@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">SatuanJumlah</string>
+    <string name="jumlah">Jumlah </string>
+    <string name="satuan">Satuan</string>
+    <string name="Hitung">hitung</string>
+    <string name="lusin">Lusin</string>
+    <string name="gross">Gross</string>
+    <string name="kodi">Kodi</string>
+    <string name="rim">Rim</string>
+    <string name="jumlahkeseluruhan">Jumlah Keseluruhan :<BR>  %1$.2f Buah </BR></string>
+</resources>
