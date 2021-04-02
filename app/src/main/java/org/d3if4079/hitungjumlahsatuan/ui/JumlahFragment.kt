@@ -1,5 +1,6 @@
 package org.d3if4079.hitungjumlahsatuan.ui
 
+import android.content.Intent
 import android.os.Bundle
 import android.provider.Settings.Global.getString
 import android.view.*
@@ -66,6 +67,36 @@ class JumlahFragment : Fragment() {
             }
 
         }
+
+        binding.sharebutton.setOnClickListener {
+            val pilih = binding.radioGroup2.checkedRadioButtonId;
+            val satuan =
+                if (pilih==R.id.lusinRadio)
+                    getString(R.string.lusin)
+
+                else if (pilih==R.id.grossRadio)
+                    getString(R.string.gross)
+
+                else if (pilih==R.id.kodiRadio)
+                    getString(R.string.kodi)
+
+                else
+                    getString(R.string.rim)
+
+
+            val message= getString(R.string.bagikan_pack,
+                binding.jumlaheditText.text,
+                satuan,
+                binding.jumlahkeseluruhanTextview.text)
+
+            val shareIntent = Intent(Intent.ACTION_SEND);
+            shareIntent.setType("text/plain").putExtra(Intent.EXTRA_TEXT,message)
+            if (shareIntent.resolveActivity(requireActivity().packageManager)!= null){
+                startActivity(shareIntent)
+            }
+
+        }
+
         setHasOptionsMenu(true)
         return binding.root
     }

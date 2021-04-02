@@ -28,6 +28,8 @@
         <br> <br>  1 Rim = 500 Buah \n\n</br></br>
 
     </string>
+    <string name="share">Bagikan</string>
 
+    <string name="bagikan_pack">Jumlah: %1$s \nSatuan: %2$s \n %3$s\n\n</string>
 
 </resources>

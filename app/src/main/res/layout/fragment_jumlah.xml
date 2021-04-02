@@ -51,6 +51,16 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/radioGroup2" />
 
+        <Button
+            android:id="@+id/sharebutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:text="@string/share"
+            app:layout_constraintBottom_toBottomOf="@+id/hitungbutton"
+            app:layout_constraintStart_toEndOf="@+id/hitungbutton"
+            app:layout_constraintTop_toTopOf="@+id/hitungbutton" />
+
         <TextView
             android:id="@+id/jumlahkeseluruhan_textview"
             android:layout_width="wrap_content"
