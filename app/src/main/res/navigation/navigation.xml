@@ -16,15 +16,50 @@
         <action
             android:id="@+id/action_jumlahFragment_to_rumusFragment"
             app:destination="@id/rumusFragment" />
+        <action
+            android:id="@+id/action_jumlahFragment_to_mainnoteFragment"
+            app:destination="@id/mainnoteFragment" />
+        <action
+            android:id="@+id/action_jumlahFragment_to_tambahnoteFragment"
+            app:destination="@id/tambahnoteFragment" />
+        <action
+            android:id="@+id/action_jumlahFragment_to_internetFragment"
+            app:destination="@id/internetFragment" />
     </fragment>
+
     <fragment
         android:id="@+id/aboutFragment"
         android:name="org.d3if4079.hitungjumlahsatuan.ui.AboutFragment"
-        android:label="@string/about"
+        android:label="Tentang Aplikasi"
         tools:layout="@layout/fragment_about"/>
+
     <fragment
         android:id="@+id/rumusFragment"
         android:name="org.d3if4079.hitungjumlahsatuan.ui.RumusFragment"
         android:label="@string/rumus"
         tools:layout="@layout/fragment_rumus"/>
+
+
+    <fragment
+        android:id="@+id/mainnoteFragment"
+        android:name="org.d3if4079.hitungjumlahsatuan.ui.MainnoteFragment"
+        android:label="@string/LihatCatatan"
+        tools:layout="@layout/fragment_mainnote"/>
+
+
+    <fragment
+        android:id="@+id/tambahnoteFragment"
+        android:name="org.d3if4079.hitungjumlahsatuan.ui.TambahnoteFragment"
+        android:label="@string/tambahcatatan"
+        tools:layout="@layout/fragment_tambahnote"/>
+
+
+    <fragment
+        android:id="@+id/internetFragment"
+        android:name="org.d3if4079.hitungjumlahsatuan.ui.InternetFragment"
+        android:label="@string/koneksikeinternet"
+        tools:layout="@layout/fragment_internet"/>
+
+
+
 </navigation>

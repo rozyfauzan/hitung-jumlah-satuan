@@ -27,6 +27,15 @@ class JumlahFragment : Fragment() {
         }   else if (item.itemId==R.id.menu_rumus) {
             findNavController().navigate(R.id.action_jumlahFragment_to_rumusFragment);
             return true
+        }else if (item.itemId==R.id.menu_mainnote) {
+            findNavController().navigate(R.id.action_jumlahFragment_to_mainnoteFragment);
+            return true
+        }else if (item.itemId==R.id.menu_tambahnote) {
+            findNavController().navigate(R.id.action_jumlahFragment_to_tambahnoteFragment);
+            return true
+        }else if (item.itemId==R.id.menu_internet) {
+            findNavController().navigate(R.id.action_jumlahFragment_to_internetFragment);
+            return true
         }
             return super.onOptionsItemSelected(item)
     }

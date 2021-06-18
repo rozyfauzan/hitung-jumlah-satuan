@@ -31,5 +31,12 @@
     <string name="share">Bagikan</string>
 
     <string name="bagikan_pack">Jumlah: %1$s \nSatuan: %2$s \n %3$s\n\n</string>
+    <string name="note">Note</string>
+    <string name="tambah">Tambah</string>
+    <string name="tambahcatatan">Tambah Catatan</string>
+    <string name="catatan">Catatan</string>
+    <string name="LihatCatatan">Lihat Catatan</string>
+    <string name="koneksikeinternet">Koneksi Ke Internet</string>
+    <string name="koneksi_error">Koneksi Error</string>
 
 </resources>
